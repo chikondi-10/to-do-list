@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+#moda{
+    display: none;
+}
+#modal{
+    height: 140px;
+    width: 340px;
+    display: grid;
+    place-items: center;
+    background-color: gray;
+    position: absolute;
+    top: 115px;
+    right: 20px;
+}
+header{
+    background-color: teal;
+    padding: 20px 0;
+}
+#container{
+    width: 50%;
+    margin: auto;
+}
+#wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#txl{
+    font-size: 3em;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+input[type=text],
+input[type=submit]{
+    padding: 5px 10px;
+    outline: none;
+}
+input[type=submit]{
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background-color: green;
+}
+#txs{
+    background-color: gray;
+    margin-top: 20px;
+    padding: 10px;
+}
+#tsl{
+    padding: 20px 0;
+}
+#tsl::first-letter{
+    text-transform: capitalize;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+li span{
+    background-color: white;
+    padding: 5px 10px;
+}
